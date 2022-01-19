@@ -22,7 +22,7 @@ class Engine {
         window.mozCancelRequestAnimationFrame ||
         window.oCancelRequestAnimationFrame ||
         window.msCancelRequestAnimationFrame
-      )?.bind(window) || clearTimeout;
+      ).bind(window) || clearTimeout;
   }
 
   initFpsmeter() {
